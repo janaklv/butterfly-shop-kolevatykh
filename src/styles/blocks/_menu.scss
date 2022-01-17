@@ -1,0 +1,38 @@
+.menu {
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid rgb(86, 199, 21);
+  }
+
+  .list {
+    border: 1px solid rgb(0, 207, 243);
+
+    &:hover {
+      background-color: $color-accent;
+    }
+  }
+
+  li {
+    margin-left: 30px;
+  }
+
+  a {
+    font-family: $font-open;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-light;
+    text-decoration: none;
+
+
+    }
+  }
+
