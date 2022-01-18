@@ -1,3 +1,26 @@
 .options-container {
+  padding-bottom: 130px;
   @include container;
+}
+
+.options-title {
+  margin: 130px auto 97px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+.options-wrap {
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.options-desc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $color-light;
+  background-color: rgba(0, 0, 0, .4);
 }

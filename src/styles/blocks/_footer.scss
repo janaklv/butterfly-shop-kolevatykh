@@ -8,3 +8,24 @@
   @include container;
 }
 
+.footer-wrap  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: inline;
+}
+
+.phone {
+  text-decoration: none;
+  color: $color-light;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+}
+ .li {
+   text-decoration: none;
+ }
