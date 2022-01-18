@@ -1,3 +1,7 @@
 .promo-container {
   @include container;
 }
+
+.promo-title {
+  color: rgba(0, 0, 0, 0)
+}

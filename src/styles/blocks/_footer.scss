@@ -1,0 +1,10 @@
+.footer {
+  padding: 16px 0;
+  background-color: $color-dark;
+  color: $color-light;
+}
+
+.footer-container {
+  @include container;
+}
+
