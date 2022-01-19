@@ -1,10 +1,11 @@
 .promo {
+  text-align: center;
 background-size: cover;
 }
 
 .promo-container {
   @include container;
-  padding-bottom: 214px;
+  padding: 200px 0 214px;
 }
 
 .promo-fade {
@@ -13,14 +14,14 @@ background-size: cover;
 }
 
 .promo-title {
-
   font-size: 0;
 }
 
 .promo-text {
+  text-align: center;
   font-weight: 600;
   font-size: 72px;
   line-height: 98px;
   color: $color-light;
-  margin: 200px auto 100px;
 }
+

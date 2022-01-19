@@ -8,10 +8,7 @@
 }
 
 .order-title {
-  margin: 130px auto 40px;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 87px;
+  @include section-heading;
 }
 
 .order-desc {
