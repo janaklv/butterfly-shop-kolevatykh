@@ -1,6 +1,6 @@
 .promo {
   text-align: center;
-background-size: cover;
+  background-size: cover;
 }
 
 .promo-container {
@@ -18,6 +18,8 @@ background-size: cover;
 }
 
 .promo-text {
+  padding-bottom: 100px;
+  margin-bottom: 0;
   text-align: center;
   font-weight: 600;
   font-size: 72px;

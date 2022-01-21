@@ -7,13 +7,11 @@
   }
 
   .list {
+    margin-left: 10px;
+    padding: 17px 25px;
     &:hover {
       background-color: $color-accent;
     }
-  }
-
-  li {
-    margin-left: 30px;
   }
 
   a {

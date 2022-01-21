@@ -13,22 +13,24 @@
   <div class="header-container">
     <div class="header-wrap">
       <a href="index.html" class="main-logo">Butterfly</a>
-      <nav class="menu">
-        <ul>
-          <li>
-            <div class="list"><a href="#">Каталог</a></div>
-          </li>
-          <li>
-            <div class="list"><a href="#">Отзывы</a></div>
-          </li>
-          <li>
-            <div class="list"><a href="#">Контакты</a></div>
-          </li>
-          <li>
-            <div class="list"><a href="#">FAQ</a></div>
-          </li>
-        </ul>
-      </nav>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <ul>
+            <li>
+              <div class="list"><a href="#">Каталог</a></div>
+            </li>
+            <li>
+              <div class="list"><a href="#">Отзывы</a></div>
+            </li>
+            <li>
+              <div class="list"><a href="#">Контакты</a></div>
+            </li>
+            <li>
+              <div class="list"><a href="#">FAQ</a></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </div>
 </header>
@@ -78,16 +80,20 @@
     <div class="order-container">
       <h2 class="order-title">Закажи пошив</h2>
       <p class="order-desc">Заполните форму - наш мастер свяжется с вами, согласует удобное время для встречи. На встрече он снимет мерки и поможет обределиться с тканью.</p>
+
     <form action="#" class="form">
       <div class="form-field">
         <label for="name" class="form-label">Ваше имя</label>
-        <input id="name" name="name" type="text" class="form-input">
+        <input id="phone" name="phone" type="tel" class="form-input">
       </div>
 
       <div class="form-field">
         <label for="phone" class="form-label">Телефон</label>
         <input id="phone" name="name" type="tel" class="form-input">
-        <a href="#" class="btn">Заказать</a>
+      </div>
+
+      <div class="form-field">
+        <a href="#" class="btn btn-order">Заказать</a>
       </div>
     </form>
     </div>

@@ -1,9 +1,10 @@
 .order {
+  text-align: center;
+  padding: 130px 0;
   background-color: rgba(51, 51, 51, .1);
 }
 
 .order-container {
-  padding-bottom: 130px;
   @include container;
 }
 
@@ -12,9 +13,41 @@
 }
 
 .order-desc {
-  margin-bottom: 130px;
+  margin: 40px 0 90px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: $color-dark;
+}
+
+// form
+
+.form {
+  display: flex;
+  margin: 0 -10px;
 }
 
 .form-field {
-  display: inline;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 100%;
+  padding: 0 10px;
 }
+
+.form-label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-dark;
+  margin-bottom: 8px;
+  text-align: left;
+  display: block;
+}
+
+.form-input {
+  width: 100%;
+  height: 104px;
+  border-radius: 6px;
+  border: none;
+}
+
